@@ -17,7 +17,9 @@ jobs:
           ANCHOR_EMAIL: ${{ secrets.ANCHOR_EMAIL }}
           ANCHOR_PASSWORD: ${{ secrets.ANCHOR_PASSWORD }}
           EPISODE_PATH: /github/workspace
-          SAVE_AS_DRAFT: true
-          IS_EXPLICIT: true
+          SAVE_AS_DRAFT: false
+          IS_EXPLICIT: false
           URL_IN_DESCRIPTION: true
           LOAD_THUMBNAIL: true
+          
+        
